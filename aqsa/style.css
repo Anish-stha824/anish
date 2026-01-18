@@ -1109,3 +1109,37 @@ body {
     border-radius: 50%; /* circular bite */
     pointer-events: none;
 }
+/* Stickers */
+.floating-stickers .kitty {
+    background: url('images/hello-kitty-png-icon-16793.png') no-repeat;
+}
+
+.floating-stickers .bow {
+    background: url('images/bow.png') no-repeat;
+}
+
+.floating-stickers .heart {
+    background: url('images/hearts.png') no-repeat;
+}
+
+/* Stars */
+.decorate_star {
+    background: url('images/star.png') no-repeat;
+}
+
+/* Flowers */
+.decorate_flower--one img,
+.decorate_flower--two img,
+.decorate_flower--three img {
+    content: url('images/decorate_flower.png');
+}
+
+/* Bottom decoration */
+.decorate_bottom img {
+    content: url('images/decorate.png');
+}
+
+/* Smiley icon */
+.smiley__icon img {
+    content: url('images/smiley_icon.png');
+}
